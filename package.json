@@ -1,0 +1,17 @@
+{
+  "name": "setsockopt",
+  "version": "0.1.0",
+  "description": "setsockopt for tcp/udp sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Tobias Hoffmann",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.1.0",
+    "node-gyp": "^3.0.3"
+  }
+}
